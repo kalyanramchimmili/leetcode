@@ -22,11 +22,8 @@ class Solution:
             val2 = l2.val if l2 else 0
 
             total = val1 + val2 + prev_rem
-            if total >= 10:
-                prev_rem = 1
-                total = total % 10
-            else:
-                prev_rem = 0
+            prev_rem = total//10
+            total = total%10
             
             current.next = ListNode(total)
             current = current.next
