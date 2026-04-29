@@ -1,3 +1,15 @@
+"""
+Old approach:-
+1. Tried the brute force, starting from first char, add each char, check is that is a palindrome, if yes record the max len and the same for 2nd char and so on - the time comp was not the best O(n3), it gave me a time limit exceeded error
+
+new approach:-
+1. all palindromes have centre, one for loop starting from 0, we have left and right var intially set to 0, so def palindrome len is 1 ofc, then left -- and right ++. if it is a first element, left is out of bounds, so right will icrease by 1, hence i and i+1 in the range.
+2. if left and right are equal, it is palindrome, check if it is greater than max len if yes, replace max str with the current palindrome s[left:right+1]
+3. once done retuen the max_str
+
+Time comp:- o(n2) - forloop is n and the expansion in worstcase is n steps.
+Space comp:- o(1)
+"""
 class Solution:
 
     def longestPalindrome(self, s: str) -> str:
