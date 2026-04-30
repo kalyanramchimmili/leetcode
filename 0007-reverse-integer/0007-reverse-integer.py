@@ -14,11 +14,11 @@ class Solution:
             reverse = reverse*10 + rem
             x = int(x/10)
 
-        if reverse > (2**31)-1:
-            return 0
-
         if isneg:
             reverse = reverse * -1
+
+        if reverse < -2**31 or reverse > (2**31 - 1):
+            return 0
         
         return reverse
 
