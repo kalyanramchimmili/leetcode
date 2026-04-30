@@ -1,3 +1,22 @@
+"""
+This was a tough one, the quetion wasn't that clear.
+
+Old approach:-
+seeing the disscussion I understood how the output should look like
+1. use a 2D array, with flag goingDown to determine if we are going down or diagonal
+2. if the row is not the last row yet then keep going down, if it is equal to last one, dec the row and inc col to move diagonal
+3. if we are moving diagnoal, if we reach row 0 then start moving down and at last run a 2 for loops, add all non blank row col values to a string and return
+
+new approach:-
+Although the old apporach ran, it was bit slow, I wanted to optimize, not gonna like i did use ai to see how to do it, then it said me instead of 2d array treat it like buckets
+1. same concept moving down and moving diagonally, instead of adding it to 2D array, we are adding to a array of string of len numRows
+2. same pattern, current row inc for going down until it touches the last row, if current row is last then start dec the current_row.
+3. if the current_row == 0 then start inc it again, finally add all the row_buckets and return it as a string.
+
+time comp:- o(n)
+space comp:- o(n)
+"""
+
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         row_bucket = ["" for _ in range(numRows)]
@@ -21,7 +40,12 @@ class Solution:
                     goingDown = True
                     current_row += 1
 
-        return "".join(row_bucket)
+        ans = ""
+        for _ in range(numRows):
+            ans += row_bucket[_]
+        
+        return ans
+
 
                 
 
