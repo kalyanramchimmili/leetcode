@@ -1,5 +1,33 @@
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
+        row_bucket = ["" for _ in range(numRows)]
+
+        current_row = 0
+        goingDown = True
+        n = len(s)
+
+        for i in range(n):
+            row_bucket[current_row] += s[i]
+            if goingDown:
+                if current_row == numRows-1:
+                    current_row -= 1
+                    goingDown = False
+                else:
+                    current_row += 1
+            else:
+                if current_row > 0:
+                    current_row -= 1
+                else:
+                    goingDown = True
+                    current_row += 1
+
+        return "".join(row_bucket)
+
+                
+
+"""
+class Solution:
+    def convert(self, s: str, numRows: int) -> str:
         n = len(s)
         if numRows == 1 or numRows > n:
             return s
@@ -35,3 +63,4 @@ class Solution:
                     ans_str += ans[i][j]
 
         return ans_str
+"""
