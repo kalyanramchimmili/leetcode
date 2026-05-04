@@ -14,5 +14,5 @@ class Solution:
 
             if rev == tmp_x:
                 return True
-            else:
-                return False
+
+        return False
