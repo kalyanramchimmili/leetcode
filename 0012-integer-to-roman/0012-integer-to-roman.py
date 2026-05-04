@@ -7,7 +7,7 @@ class Solution:
             if num != 0:
                 temp = num // value
                 ans += sym*temp
-                num -= temp*value
+                num %= value
             else:
                 break
         
