@@ -1,0 +1,42 @@
+"""
+1. This was the famous 3-sum problem, it was a bit tough, specially skipping negatives
+2. we are taking one fixed pointer from o to n-2 len, we have left which is fixed +1 and right at last element (one fixed element and 2 pointer method)
+3. sort the array before we began, if sum of all 3 pos is > 0 right -- if < 0 then left ++, else append those triplet to ans and dec right and inc left
+4. to avoid duplicates, the top loop if fixed pos > 0 and the prev fixed int is same as present one, skip it to not add those values again
+(for eg:- [-1, -1, 0, 1]. shld be -1, 0, 1 so skip if the prev value is same in cases such as this)
+4.1 a second while loop to skip the duplicated for [1,2,0,1,0,0,0,0], if left is same as prev value and is less than right skip that left by inc the left.
+5. return the ans
+
+time comp:- o(n^2)
+space comp:- o(1)
+"""
+class Solution:
+    def threeSum(self, nums: list[int]) -> list[list[int]]:
+        ans = []
+        n = len(nums)
+
+        nums.sort()
+        for fixed in range(n - 2):
+
+            if nums[fixed] > 0:
+                break
+            
+            if fixed > 0 and nums[fixed - 1] == nums[fixed]:
+                continue
+            left = fixed + 1
+            right = n - 1
+
+            while left < right:
+                curr_sum = nums[fixed] + nums[left] + nums[right]
+                if curr_sum == 0:
+                    ans.append([nums[fixed], nums[left], nums[right]])
+                    left += 1
+                    right -= 1
+                    while left < right and nums[left] == nums[left-1]:
+                        left += 1
+                elif curr_sum > 0:
+                    right -= 1
+                else:
+                    left += 1
+
+        return ans
