@@ -14,9 +14,6 @@ class Solution:
         nums.sort()
         ans_list = []
 
-        if target <= 0 and nums[0] > 0:
-            return []
-
         for f1 in range(0, l - 3):
             if f1 > 0 and nums[f1] == nums [f1-1]:
                 continue
