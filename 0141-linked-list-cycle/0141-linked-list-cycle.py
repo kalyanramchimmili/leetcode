@@ -1,3 +1,10 @@
+"""
+1. slow and fast pointers, inc fast pointer by 2 steps and slow by 1
+2. if they meet then there is loop, if not no loop, check he intial condition, if we have no nodes in ll and only one node with no cycle and return false early
+
+time comp:- o(n)
+space :- o(1)
+"""
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
