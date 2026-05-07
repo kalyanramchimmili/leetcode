@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/kalyanramchimmili/leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/kalyanramchimmili/leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/kalyanramchimmili/leetcode/tree/master/0018-4sum) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/kalyanramchimmili/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Hash Table
 |  |
 | ------- |
@@ -73,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0005-longest-palindromic-substring](https://github.com/kalyanramchimmili/leetcode/tree/master/0005-longest-palindromic-substring) |
+| [0121-best-time-to-buy-and-sell-stock](https://github.com/kalyanramchimmili/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 ## Greedy
 |  |
 | ------- |
