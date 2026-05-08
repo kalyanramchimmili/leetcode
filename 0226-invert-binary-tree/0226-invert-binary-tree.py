@@ -1,3 +1,11 @@
+"""
+1. standard recurssion, at each node swap the lest and right nodes and call the fun in a loop until it is done for every node
+2. return the root node at end of recurrsion
+3. if root is none, return none as per testcase
+
+time comp:- O(N)
+space comp:- O(N)
+"""
 # Definition for a binary tree node.
 # class TreeNode:
 #     def __init__(self, val=0, left=None, right=None):
