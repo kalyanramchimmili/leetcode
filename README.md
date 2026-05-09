@@ -64,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/kalyanramchimmili/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0278-first-bad-version](https://github.com/kalyanramchimmili/leetcode/tree/master/0278-first-bad-version) |
 | [0704-binary-search](https://github.com/kalyanramchimmili/leetcode/tree/master/0704-binary-search) |
 ## Divide and Conquer
 |  |
@@ -149,4 +150,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0733-flood-fill](https://github.com/kalyanramchimmili/leetcode/tree/master/0733-flood-fill) |
+## Interactive
+|  |
+| ------- |
+| [0278-first-bad-version](https://github.com/kalyanramchimmili/leetcode/tree/master/0278-first-bad-version) |
 <!---LeetCode Topics End-->
