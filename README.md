@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/kalyanramchimmili/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0141-linked-list-cycle](https://github.com/kalyanramchimmili/leetcode/tree/master/0141-linked-list-cycle) |
 | [0242-valid-anagram](https://github.com/kalyanramchimmili/leetcode/tree/master/0242-valid-anagram) |
+| [0383-ransom-note](https://github.com/kalyanramchimmili/leetcode/tree/master/0383-ransom-note) |
 ## Linked List
 |  |
 | ------- |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/kalyanramchimmili/leetcode/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/kalyanramchimmili/leetcode/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/kalyanramchimmili/leetcode/tree/master/0242-valid-anagram) |
+| [0383-ransom-note](https://github.com/kalyanramchimmili/leetcode/tree/master/0383-ransom-note) |
 ## Sliding Window
 |  |
 | ------- |
@@ -154,4 +156,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0278-first-bad-version](https://github.com/kalyanramchimmili/leetcode/tree/master/0278-first-bad-version) |
+## Counting
+|  |
+| ------- |
+| [0383-ransom-note](https://github.com/kalyanramchimmili/leetcode/tree/master/0383-ransom-note) |
 <!---LeetCode Topics End-->
