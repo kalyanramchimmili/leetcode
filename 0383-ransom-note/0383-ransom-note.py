@@ -9,11 +9,9 @@ space comp:- O(N)
 """
 class Solution:
     def canConstruct(self, ransomNote: str, magazine: str) -> bool:
-        if len(ransomNote) > len(magazine):
-            return False
 
         count = {}
-        
+
         for char in magazine:
             count[char] = count.get(char,0)+1
         
