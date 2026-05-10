@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/kalyanramchimmili/leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/kalyanramchimmili/leetcode/tree/master/0018-4sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kalyanramchimmili/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0169-majority-element](https://github.com/kalyanramchimmili/leetcode/tree/master/0169-majority-element) |
 | [0704-binary-search](https://github.com/kalyanramchimmili/leetcode/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/kalyanramchimmili/leetcode/tree/master/0733-flood-fill) |
 ## Hash Table
@@ -23,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0013-roman-to-integer](https://github.com/kalyanramchimmili/leetcode/tree/master/0013-roman-to-integer) |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/kalyanramchimmili/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0141-linked-list-cycle](https://github.com/kalyanramchimmili/leetcode/tree/master/0141-linked-list-cycle) |
+| [0169-majority-element](https://github.com/kalyanramchimmili/leetcode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/kalyanramchimmili/leetcode/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/kalyanramchimmili/leetcode/tree/master/0383-ransom-note) |
 ## Linked List
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0004-median-of-two-sorted-arrays](https://github.com/kalyanramchimmili/leetcode/tree/master/0004-median-of-two-sorted-arrays) |
+| [0169-majority-element](https://github.com/kalyanramchimmili/leetcode/tree/master/0169-majority-element) |
 ## Two Pointers
 |  |
 | ------- |
@@ -106,6 +109,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/kalyanramchimmili/leetcode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/kalyanramchimmili/leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/kalyanramchimmili/leetcode/tree/master/0018-4sum) |
+| [0169-majority-element](https://github.com/kalyanramchimmili/leetcode/tree/master/0169-majority-element) |
 | [0242-valid-anagram](https://github.com/kalyanramchimmili/leetcode/tree/master/0242-valid-anagram) |
 ## Backtracking
 |  |
@@ -163,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [0169-majority-element](https://github.com/kalyanramchimmili/leetcode/tree/master/0169-majority-element) |
 | [0383-ransom-note](https://github.com/kalyanramchimmili/leetcode/tree/master/0383-ransom-note) |
 ## Memoization
 |  |
