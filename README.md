@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0018-4sum](https://github.com/kalyanramchimmili/leetcode/tree/master/0018-4sum) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kalyanramchimmili/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/kalyanramchimmili/leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/kalyanramchimmili/leetcode/tree/master/0217-contains-duplicate) |
 | [0704-binary-search](https://github.com/kalyanramchimmili/leetcode/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/kalyanramchimmili/leetcode/tree/master/0733-flood-fill) |
 ## Hash Table
@@ -25,6 +26,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0017-letter-combinations-of-a-phone-number](https://github.com/kalyanramchimmili/leetcode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0141-linked-list-cycle](https://github.com/kalyanramchimmili/leetcode/tree/master/0141-linked-list-cycle) |
 | [0169-majority-element](https://github.com/kalyanramchimmili/leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/kalyanramchimmili/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/kalyanramchimmili/leetcode/tree/master/0242-valid-anagram) |
 | [0383-ransom-note](https://github.com/kalyanramchimmili/leetcode/tree/master/0383-ransom-note) |
 ## Linked List
@@ -114,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/kalyanramchimmili/leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/kalyanramchimmili/leetcode/tree/master/0018-4sum) |
 | [0169-majority-element](https://github.com/kalyanramchimmili/leetcode/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/kalyanramchimmili/leetcode/tree/master/0217-contains-duplicate) |
 | [0242-valid-anagram](https://github.com/kalyanramchimmili/leetcode/tree/master/0242-valid-anagram) |
 ## Backtracking
 |  |
