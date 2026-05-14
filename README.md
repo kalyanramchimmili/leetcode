@@ -12,6 +12,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0016-3sum-closest](https://github.com/kalyanramchimmili/leetcode/tree/master/0016-3sum-closest) |
 | [0018-4sum](https://github.com/kalyanramchimmili/leetcode/tree/master/0018-4sum) |
 | [0053-maximum-subarray](https://github.com/kalyanramchimmili/leetcode/tree/master/0053-maximum-subarray) |
+| [0057-insert-interval](https://github.com/kalyanramchimmili/leetcode/tree/master/0057-insert-interval) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kalyanramchimmili/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0169-majority-element](https://github.com/kalyanramchimmili/leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/kalyanramchimmili/leetcode/tree/master/0217-contains-duplicate) |
