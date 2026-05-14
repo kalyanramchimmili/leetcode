@@ -4,7 +4,7 @@ case 1:- before the interval if last element of current interval is less than ne
 case 2:- if first element of current interval is greater than last element of new interval then the interval is after new interval, so append the new interval first and the current interval later
 case 3:- overlap, here we choose min of first element and max of last element to make new newInterval, to check again.
 
-if the loop is compleye append the new interval, the trickiest part is in case 2 we append new interval and we append the interval, but at last we append new interval again, we cannot break, what if new interval is not before the last interval rather it is before mid interval, we would miss rest of it.
+if the loop is complete append the new interval, the trickiest part is in case 2 we append new interval and we append the interval, but at last we append new interval again, we cannot break, what if new interval is not before the last interval rather it is before mid interval, we would miss rest of it.
 
 we change the newinterval to the current interval in case 2 to continue look further and we append it last anyways.
 
