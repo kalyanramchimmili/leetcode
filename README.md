@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0150-evaluate-reverse-polish-notation](https://github.com/kalyanramchimmili/leetcode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0169-majority-element](https://github.com/kalyanramchimmili/leetcode/tree/master/0169-majority-element) |
 | [0217-contains-duplicate](https://github.com/kalyanramchimmili/leetcode/tree/master/0217-contains-duplicate) |
+| [0542-01-matrix](https://github.com/kalyanramchimmili/leetcode/tree/master/0542-01-matrix) |
 | [0704-binary-search](https://github.com/kalyanramchimmili/leetcode/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/kalyanramchimmili/leetcode/tree/master/0733-flood-fill) |
 | [0973-k-closest-points-to-origin](https://github.com/kalyanramchimmili/leetcode/tree/master/0973-k-closest-points-to-origin) |
@@ -112,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0053-maximum-subarray](https://github.com/kalyanramchimmili/leetcode/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/kalyanramchimmili/leetcode/tree/master/0070-climbing-stairs) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/kalyanramchimmili/leetcode/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0542-01-matrix](https://github.com/kalyanramchimmili/leetcode/tree/master/0542-01-matrix) |
 ## Greedy
 |  |
 | ------- |
@@ -182,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/kalyanramchimmili/leetcode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/kalyanramchimmili/leetcode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0226-invert-binary-tree](https://github.com/kalyanramchimmili/leetcode/tree/master/0226-invert-binary-tree) |
+| [0542-01-matrix](https://github.com/kalyanramchimmili/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/kalyanramchimmili/leetcode/tree/master/0733-flood-fill) |
 ## Binary Search Tree
 |  |
@@ -190,6 +193,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0542-01-matrix](https://github.com/kalyanramchimmili/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/kalyanramchimmili/leetcode/tree/master/0733-flood-fill) |
 ## Interactive
 |  |
