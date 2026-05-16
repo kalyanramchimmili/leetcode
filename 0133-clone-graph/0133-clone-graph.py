@@ -1,5 +1,17 @@
 """
+1. Solved it via both dfs and bfs. we shld return the same graph with new nodes.
+2. have a clone fun which clones the val of old node to new node and make a node from it.
+3. we cannot link the new node to old node nei, so have a hashmap to store the new node to old node.
+4. call the fun recursively to all neighbours until, all nodes are cloned and stored in hashmap, also clone their neightbours to cloned nodes so it forms a graph
+5. newNode.neighbors.append(clone(i)), this one by appending the neig of cloned nodes to the clones node and return the first cloned node.
 
+Now using BFS:-
+1. use a queue, clone the first node, add the orginal node to queue and store the cloned node against the orignal in a hashmap.
+2. if the queue is not empty, by usng left and right pointers, pop the first node, clone its neighbours append the orginals to queue and also hashmap.
+3. append the cloned neighbours to the current node i.e first cloned node and continue doing the same for other cloned nodes until queue is empty.
+
+Time comp:- O(N), N being E+v (edges+vertices)
+Space comp:- O(V), V being vertices/ all nodes
 """
 """
 # Definition for a Node.
@@ -12,7 +24,6 @@ class Node:
 from typing import Optional
 class Solution:
 # using DFS
-    """
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
         newmap = {}
 
@@ -30,8 +41,8 @@ class Solution:
             return newNode
         
         return clone(node)
-    """
 
+"""
 # using BFS
     def cloneGraph(self, node: Optional['Node']) -> Optional['Node']:
         newmap = {}
@@ -58,3 +69,4 @@ class Solution:
                 newmap[curr_node].neighbors.append(newmap[i])
 
         return newmap[node]
+"""
