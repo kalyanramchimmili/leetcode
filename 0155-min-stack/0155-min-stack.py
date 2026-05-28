@@ -6,7 +6,7 @@
 5 min woudl return stakcB[-1]
 
 Time comp:- O(1) for all the cases
-space comp:- O(2n), assuming n no of elements in stack arranged in decreasing order.
+space comp:- O(2n) ~ O(n), assuming n no of elements in stack arranged in decreasing order.
 """
 class MinStack:
 
