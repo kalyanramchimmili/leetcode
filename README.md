@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0704-binary-search](https://github.com/kalyanramchimmili/leetcode/tree/master/0704-binary-search) |
 | [0733-flood-fill](https://github.com/kalyanramchimmili/leetcode/tree/master/0733-flood-fill) |
 | [0973-k-closest-points-to-origin](https://github.com/kalyanramchimmili/leetcode/tree/master/0973-k-closest-points-to-origin) |
+| [0994-rotting-oranges](https://github.com/kalyanramchimmili/leetcode/tree/master/0994-rotting-oranges) |
 ## Hash Table
 |  |
 | ------- |
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0322-coin-change](https://github.com/kalyanramchimmili/leetcode/tree/master/0322-coin-change) |
 | [0542-01-matrix](https://github.com/kalyanramchimmili/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/kalyanramchimmili/leetcode/tree/master/0733-flood-fill) |
+| [0994-rotting-oranges](https://github.com/kalyanramchimmili/leetcode/tree/master/0994-rotting-oranges) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -212,6 +214,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0542-01-matrix](https://github.com/kalyanramchimmili/leetcode/tree/master/0542-01-matrix) |
 | [0733-flood-fill](https://github.com/kalyanramchimmili/leetcode/tree/master/0733-flood-fill) |
+| [0994-rotting-oranges](https://github.com/kalyanramchimmili/leetcode/tree/master/0994-rotting-oranges) |
 ## Interactive
 |  |
 | ------- |
